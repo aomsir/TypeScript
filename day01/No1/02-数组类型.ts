@@ -9,6 +9,4 @@
     // 数组定义方式二
     let strings :Array<string> = ['Aomsir', 'Jewix']
     console.log(strings);
-    
-    
 }
