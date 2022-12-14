@@ -4,6 +4,7 @@
         age :number
         gender :boolean
         sayHi() :void
+        add(n1 :number, n2 :number) :number
     }
 
     const user :User = {
@@ -12,6 +13,9 @@
         gender: false,
         sayHi() {
             console.log('Hello World');
+        },
+        add(n1, n2) {
+            return n1 + n2
         }
     }
 }
